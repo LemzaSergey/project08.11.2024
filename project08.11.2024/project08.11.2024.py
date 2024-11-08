@@ -150,3 +150,15 @@ def run():
     print(f'–езультат: {result}')
 
     progam_is_running = True
+
+    while(progam_is_running):
+
+    run()
+
+    answer = input('∆елаете продолжить?\n'
+
+      ' ¬ведите + если да и прочий символ, если нет: ')
+
+    if answer != '+':
+
+        progam_is_running = False
