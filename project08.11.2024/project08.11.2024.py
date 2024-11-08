@@ -148,3 +148,5 @@ def run():
     result = calc(first, second, op)
 
     print(f'Результат: {result}')
+
+    progam_is_running = True
