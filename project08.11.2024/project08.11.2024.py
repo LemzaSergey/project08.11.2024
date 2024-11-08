@@ -124,3 +124,27 @@ def operation():
 
 
     return mes
+
+def run():
+
+    try:
+
+        first = int(input('Укажите первое число: '))
+
+    except ValueError:
+
+        first = int(input('Вы ввели некорректные данные. Пожалуйста, введите целое число.'))
+
+    try:
+
+        second = int(input('Укажите второе число: '))
+
+    except ValueError:
+
+        second = int(input('Вы ввели некорректные данные. Пожалуйста, введите целое число.'))
+
+    op = operation()
+
+    result = calc(first, second, op)
+
+    print(f'Результат: {result}')
